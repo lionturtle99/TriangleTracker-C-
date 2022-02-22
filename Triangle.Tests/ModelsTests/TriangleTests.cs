@@ -21,7 +21,7 @@ namespace Triangle.Tests
     [TestMethod]
     public void IsItATriangle_TwoSidesEqual_String()
     {
-      Assert.AreEqual("It is isosceles triangle.",testTheThreeTriangles.IsItATriangle(3,3,5));
+      Assert.AreEqual("It is a isosceles triangle.",testTheThreeTriangles.IsItATriangle(3,3,5));
     }
   }
 }
