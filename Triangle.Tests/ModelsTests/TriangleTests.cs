@@ -7,10 +7,10 @@ namespace Triangle.Tests
   public class TheThreeTrianglesTests
   {
     [TestMethod]
-    public void IsItATriangle_TwoSidesGreaterThanOther_True()
+    public void IsItATriangle_TwoSidesGreaterThanOther_String()
     {
       TheThreeTriangles testTheThreeTriangles = new TheThreeTriangles();
-      Assert.AreEqual(true, testTheThreeTriangles.IsItATriangle(1, 2, 3));
+      Assert.AreEqual("it is not a triangle", testTheThreeTriangles.IsItATriangle(1, 2, 5));
     }
   }
 }

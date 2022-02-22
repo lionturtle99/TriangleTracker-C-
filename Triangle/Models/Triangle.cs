@@ -2,9 +2,16 @@ namespace Triangle
 {
   public class TheThreeTriangles
   {
-    public bool IsItATriangle(int side1, int side2, int side3)
+    public string IsItATriangle(int a, int b, int c)
     {
-      return false;
+      if (a + b < c || a + c < b || b + c < a)
+      {
+        return "it is not a triangle";
+      }
+      else
+      {
+        return "it is a type of triangle";
+      }
     }
   }
 }
