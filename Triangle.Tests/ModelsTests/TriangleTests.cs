@@ -21,7 +21,7 @@ namespace Triangle.Tests
     [TestMethod]
     public void IsItATriangle_AllSidesEqual_String()
     {
-      Assert.AreEqual("It a equilateral triangle", testTheThreeTriangles.IsItATriangle(3,3,3));
+      Assert.AreEqual("It is a equilateral triangle", testTheThreeTriangles.IsItATriangle(3,3,3));
     }
   }
 }
