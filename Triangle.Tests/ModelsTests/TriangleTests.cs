@@ -14,14 +14,14 @@ namespace Triangle.Tests
       Assert.AreEqual("it is not a triangle", testTheThreeTriangles.IsItATriangle(1, 2, 5));
     }
     [TestMethod]
-    public void IsItATriangle_TwoSidesGreaterThanOther_String()
-    {
-      Assert.AreEqual("it is a type of triangle", testTheThreeTriangles.IsItATriangle(3,3,4));
-    }
-    [TestMethod]
     public void IsItATriangle_AllSidesEqual_String()
     {
       Assert.AreEqual("It is a equilateral triangle", testTheThreeTriangles.IsItATriangle(3,3,3));
+    }
+    [TestMethod]
+    public void IsItATriangle_TwoSidesEqual_String()
+    {
+      Assert.AreEqual("It is isosceles triangle.",testTheThreeTriangles.IsItATriangle(3,3,5));
     }
   }
 }
