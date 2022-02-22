@@ -1,0 +1,9 @@
+test every behavior change using TDD
+
+
+We will take three numbers from the user and check if they make a type of triangle
+
+1. Check to see if any one side is greater than the other two side combined
+2. Check if the all sides are equal for a equilateral triangle
+3. Check if exactly two side are equal
+4. Check if all side are different lengths 
